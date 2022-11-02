@@ -4,7 +4,7 @@
   <settings ppi="96">
     <identity>
       <id>eeffde6f-ef46-4a7e-aabe-1bede631d82d</id>
-      <revision>2</revision>
+      <revision>3</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -76,11 +76,11 @@
         </input>
       </math>
     </region>
-    <region left="414" top="0" width="60" height="30" color="#000000" fontSize="10">
+    <region left="414" top="0" width="52" height="30" color="#000000" fontSize="10">
       <math>
         <input>
           <e type="operand">V.o</e>
-          <e type="operand">15</e>
+          <e type="operand">5</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
@@ -95,7 +95,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">0.75</e>
+          <e type="operand">0.25</e>
         </result>
       </math>
     </region>
@@ -139,7 +139,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">1</e>
+          <e type="operand">3</e>
         </result>
       </math>
     </region>
@@ -197,7 +197,7 @@
         </result>
       </math>
     </region>
-    <region left="18" top="180" width="107" height="62" color="#000000" bgColor="#ffff00" fontSize="10">
+    <region left="18" top="180" width="139" height="62" color="#000000" bgColor="#ffff00" fontSize="10">
       <math>
         <input>
           <e type="operand">R.o</e>
@@ -209,7 +209,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">15</e>
+          <e type="operand">1.6667</e>
         </result>
       </math>
     </region>
@@ -230,7 +230,7 @@
         </result>
       </math>
     </region>
-    <region left="18" top="270" width="228" height="55" color="#000000" bgColor="#ffff00" fontSize="10">
+    <region left="18" top="270" width="220" height="55" color="#000000" bgColor="#ffff00" fontSize="10">
       <math>
         <input>
           <e type="operand">n</e>
@@ -250,7 +250,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">2.1231</e>
+          <e type="operand">5.848</e>
         </result>
       </math>
     </region>
@@ -268,11 +268,11 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">0.942</e>
+          <e type="operand">1.026</e>
         </result>
       </math>
     </region>
-    <region left="18" top="396" width="195" height="30" color="#000000" fontSize="10">
+    <region left="18" top="396" width="187" height="30" color="#000000" fontSize="10">
       <math>
         <input>
           <e type="operand">I.s.max</e>
@@ -282,7 +282,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">2.1231</e>
+          <e type="operand">5.848</e>
         </result>
       </math>
     </region>
@@ -298,7 +298,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">1</e>
+          <e type="operand">3</e>
         </result>
       </math>
     </region>
@@ -315,11 +315,11 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">1.1897</e>
+          <e type="operand">3.4199</e>
         </result>
       </math>
     </region>
-    <region left="18" top="576" width="216" height="53" color="#000000" bgColor="#ffff00" fontSize="10">
+    <region left="18" top="576" width="192" height="53" color="#000000" bgColor="#ffff00" fontSize="10">
       <math>
         <input>
           <e type="operand">C.o</e>
@@ -333,9 +333,9 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">1.6667</e>
+          <e type="operand">1.5</e>
           <e type="operand">10</e>
-          <e type="operand">6</e>
+          <e type="operand">5</e>
           <e type="operator" args="1">-</e>
           <e type="operator" args="2">^</e>
           <e type="operator" args="2">*</e>
